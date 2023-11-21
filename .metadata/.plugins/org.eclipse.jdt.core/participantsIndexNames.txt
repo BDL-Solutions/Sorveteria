@@ -1,0 +1,11 @@
+INDEX VERSION 1.134
+/home/Lemeson/eclipse-workspace/Sorveteria2/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1624933866.index
+/Sorveteria/src/main/java
+/home/Lemeson/eclipse-workspace/Sorveteria2/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/101217330.index
+/Sorveteria/src/main/java
+/home/Lemeson/eclipse-workspace/Sorveteria/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2469419104.index
+/Sorveteria/src/main/java
+/home/Lemeson/eclipse-workspace/Sorveteria2/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2469419104.index
+/Sorveteria/src/main/java
+/home/Lemeson/eclipse-workspace/Sorveteria2/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3398116131.index
+/Sorveteria/src/main/java
