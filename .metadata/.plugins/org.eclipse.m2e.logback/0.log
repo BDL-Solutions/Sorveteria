@@ -1559,3 +1559,16 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:b
 2023-11-22 08:35:25,266 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\bruns\Desktop\Sorveteria\Sorveteria\Sorveteria\src\main\resources
 2023-11-22 08:35:25,273 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-11-22 08:35:25,275 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\bruns\Desktop\Sorveteria\Sorveteria\Sorveteria\src\test\resources
+2023-11-22 08:36:54,389 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-22 08:36:54,391 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\bruns\Desktop\Sorveteria\Sorveteria\Sorveteria\src\main\resources
+2023-11-22 08:36:54,395 [Worker-63: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-22 08:36:54,397 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\bruns\Desktop\Sorveteria\Sorveteria\Sorveteria\src\test\resources
+2023-11-26 14:33:53,136 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-26 14:33:53,138 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\bruns\Desktop\Sorveteria\Sorveteria\Sorveteria\src\main\resources
+2023-11-26 14:33:53,141 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-26 14:33:53,142 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\bruns\Desktop\Sorveteria\Sorveteria\Sorveteria\src\test\resources
+2023-11-26 14:33:55,216 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-26 14:33:55,218 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\bruns\Desktop\Sorveteria\Sorveteria\Sorveteria\src\main\resources
+2023-11-26 14:33:55,223 [Worker-78: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-11-26 14:33:55,226 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\bruns\Desktop\Sorveteria\Sorveteria\Sorveteria\src\test\resources
+2023-11-26 14:36:43,171 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
