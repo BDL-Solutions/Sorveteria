@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
    pageEncoding="UTF-8"%>
+   
 <jsp:include page="/components/top.jsp" />
-<div class="site-wrap"> 
+<div class="site-wrap">
 <jsp:include page="/components/nav.jsp" />
 <div class="site-blocks-cover">
    <div class="container">
@@ -87,18 +88,18 @@
       </div>
    </div>
 </div>
-<div class="site-blocks-cover inner-page py-5" data-aos="fade">
+<div class="site-blocks-cover">
    <div class="container">
       <div class="row">
          <div class="col-md-6 ml-auto order-md-2 align-self-start">
             <div class="site-block-cover-content">
                <h2 class="title" style="color: #CF793C;">Realize seus sonhos, torne-se um franqueado</h2>
                <h1 style="color: #CF793C;">BDL</h1>
-               <p class="text-center"><a href="#" class="btn btn-custom rounded-0" style="background-color: #CF793C; color: #fff; font-weight: bold;">CLIQUE AQUI</a></p>
+               <p class="text-center"><a href="./Franquado.jsp "  class="btn btn-custom rounded-0" style="background-color: #CF793C; color: #fff; font-weight: bold;">CLIQUE AQUI</a></p>
             </div>
          </div>
          <div class="col-md-6 order-1 align-self-center">
-            <img src="https://o.remove.bg/downloads/dc60dee6-478a-4da3-9d0a-76e5fadc4fb5/download-removebg-preview.png" alt="Image" class="img-fluid w-100 h-auto">
+            <img src="images/fotpFranquia.png" alt="Image" class="img-fluid">
          </div>
       </div>
    </div>
