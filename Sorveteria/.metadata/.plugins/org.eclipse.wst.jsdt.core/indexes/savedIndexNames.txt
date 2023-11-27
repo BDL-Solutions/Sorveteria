@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+/home/Lemeson/eclipse-workspace/Sorveteria/Sorveteria/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+4141862134.index
+2705098941.index
+1204021993.index
+938509492.index
+3616001157.index
