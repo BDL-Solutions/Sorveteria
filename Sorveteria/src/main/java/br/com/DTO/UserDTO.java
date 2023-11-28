@@ -3,7 +3,8 @@ package br.com.DTO;
 public class UserDTO {
 	private int id_user;
 	private String nome_user;
-	
+	private String email_user;
+
 	// Construtores, getters e setters
 
 
@@ -24,6 +25,14 @@ public class UserDTO {
 
     public void setNome_user(String nome) {
         this.nome_user = nome;
+    }
+
+    public String getEmail_user() {
+        return nome_user;
+    }
+
+    public void setEmail_user(String email) {
+        this.email_user = email;
     }
 
 }

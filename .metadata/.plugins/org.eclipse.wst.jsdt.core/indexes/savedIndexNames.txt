@@ -1,23 +1,6 @@
-<<<<<<< HEAD
-INDEX VERSION 1.4+C:\Users\bruns\Desktop\Sorveteria\Sorveteria\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3800968585.index
-4231942524.index
-3855819840.index
-408993040.index
-679156740.index
-2800764775.index
-1234109753.index
-607295908.index
-69245064.index
-1063215265.index
-74073469.index
-3743539134.index
-=======
 INDEX VERSION 1.4+/home/Lemeson/eclipse-workspace/Sorveteria/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-2569048182.index
-2705224125.index
-1044104417.index
-3293946853.index
-4293531284.index
+101217330.index
 1337665782.index
->>>>>>> 28c9a45 (rebase)
+3186138824.index
+0.index
+2469419104.index
