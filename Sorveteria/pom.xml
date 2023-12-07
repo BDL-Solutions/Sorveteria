@@ -8,18 +8,23 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   <name>SirveteriaBDL</name>
   <description>Java web Project</description>
   
-  <dependencies>
-    <dependency>
-    <groupId>jakarta.servlet</groupId>
-    <artifactId>jakarta.servlet-api</artifactId>
-    <version>5.0.0</version>
-</dependency>
+	<dependencies>
+	   <dependency>
+	    <groupId>jakarta.servlet</groupId>
+	    <artifactId>jakarta.servlet-api</artifactId>
+	    <version>5.0.0</version>
+		</dependency>
 
-    
     <dependency>
     	<groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
         <version>8.0.21</version>
+	</dependency>
+	
+	<dependency>
+	  <groupId>com.google.code.gson</groupId>
+	  <artifactId>gson</artifactId>
+	  <version>2.10.1</version>
 	</dependency>
 	
     <dependency>
@@ -27,6 +32,25 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <artifactId>bootstrap</artifactId>
         <version>5.3.2</version> <!-- Substitua pela versão mais recente disponível -->
     </dependency>
+
+	<dependency>
+		<groupId>com.stripe</groupId>
+		<artifactId>stripe-java</artifactId>
+		<version>24.4.0</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>com.sparkjava</groupId>
+    	<artifactId>spark-core</artifactId>
+    	<version>2.9.3</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.webjars</groupId>
+	    <artifactId>jquery</artifactId>
+	    <version>3.5.1</version>
+	</dependency>
+
 
 </dependencies>
   
