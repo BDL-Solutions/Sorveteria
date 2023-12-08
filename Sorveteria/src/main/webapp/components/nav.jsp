@@ -1,7 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-    
+<%
+	if(session.getAttribute("name")==null){
+		//response.sendRedirect("login.jsp");
+	}
+%>    
  
 
     <div class="site-navbar bg-white py-2">
@@ -33,8 +37,10 @@
             </nav>
           </div>
           <div class="icons">
+          <li class="nav-item mx-0 mx-lg-1 bg-danger"><a
+			class="nav-link py-3 px-0 px-lg-3 rounded" href="logout"><%= session.getAttribute("name") %></a></li>
             <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
-            <a href="#" class="icons-btn d-inline-block"><span class="icon-heart-o"></span></a>
+            <a href="login.jsp" class="icons-btn d-inline-block"><span class="icon-heart-o"></span></a>
             <a href="cart.html" class="icons-btn d-inline-block bag">
               <span class="icon-shopping-bag"></span>
               <span class="number"></span> <!-- Colocar a quantidade de pedidos do BD -->
