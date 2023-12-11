@@ -22,13 +22,7 @@
         </div>
         <div class="mb-5">
           <div class="input-group mb-3" style="max-width: 120px;">
-            <div class="input-group-prepend">
-              <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
-            </div>
-            <input type="text" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-            <div class="input-group-append">
-              <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
-            </div>
+            
           </div>
         </div>
         <p><a href="cart.jsp" class="buy-now btn btn-sm height-auto px-4 py-3 btn-primary">Adicionar ao Carrinho</a></p>
@@ -38,4 +32,6 @@
 </div>
 
 <jsp:include page="/components/footer.jsp" />
+
+<script src="js/sorvete.js"></script>
     

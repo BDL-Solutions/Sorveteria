@@ -36,11 +36,14 @@ public class Login extends HttpServlet {
 			PreparedStatement pst = con.prepareStatement("select *from users where email_user = ? and user_pass_word = ?");
 			pst.setString(1,  user_email);
 			pst.setString(2,  pass_word);
-			
+	
 			ResultSet rs = pst.executeQuery();
+			
+			
 			if (rs.next()) {
 				session.setAttribute("name", rs.getString("nome_user"));
-				dispatcher = request.getRequestDispatcher("indexOriginal.jsp");
+				session.setAttribute("idCliente", rs.getString("id_user"));
+				dispatcher = request.getRequestDispatcher("index.jsp");
 			} else {
 				request.setAttribute("status","failed");
 				dispatcher = request.getRequestDispatcher("login.jsp");

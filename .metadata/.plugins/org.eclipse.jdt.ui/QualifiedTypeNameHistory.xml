@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="br.com.DAO.ConectionDAO"/>
-    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="br.com.servlets.RegistrationServlet"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="jakarta.servlet.ServletException"/>
@@ -19,4 +18,10 @@
     <fullyQualifiedTypeName name="jakarta.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="br.com.DAO.CartDAO"/>
+    <fullyQualifiedTypeName name="com.stripe.model.terminal.Reader.Action.SetReaderDisplay.Cart"/>
+    <fullyQualifiedTypeName name="br.com.DTO.CartDTO"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.com.DAO.DeleteSorveCartDAO"/>
 </qualifiedTypeNameHistroy>

@@ -2,10 +2,13 @@
     pageEncoding="UTF-8"%>
 
 <%
-	if(session.getAttribute("name")==null){
-		//response.sendRedirect("login.jsp");
-	}
-%>    
+    if (session.getAttribute("name") == null) {
+        //session.setAttribute("name", "");
+        // You can also redirect to login.jsp if needed
+        // response.sendRedirect("login.jsp");
+    }
+%>
+   
  
 
     <div class="site-navbar bg-white py-2">
@@ -23,7 +26,7 @@
         <div class="d-flex align-items-center justify-content-between">
           <div class="logo">
             <div class="site-logo">
-              <a href="index.html" class="js-logo-clone">Sorveteria BDL</a>
+              <a href="index.jsp" class="js-logo-clone">Sorveteria BDL</a>
             </div>
           </div>
           <div class="main-nav d-none d-lg-block">
@@ -36,14 +39,12 @@
               </ul>
             </nav>
           </div>
-          <div class="icons">
-          <li class="nav-item mx-0 mx-lg-1 bg-danger"><a
-			class="nav-link py-3 px-0 px-lg-3 rounded" href="logout"><%= session.getAttribute("name") %></a></li>
-            <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
+          <div class="icons">          
+          <a <% if (session.getAttribute("name") == null) { %>style="display: none;"<% } %> class=" py-3 px-0 px-lg-3 rounded" href="logout"><%= session.getAttribute("name") %></a>      
             <a href="login.jsp" class="icons-btn d-inline-block"><span class="icon-heart-o"></span></a>
-            <a href="cart.html" class="icons-btn d-inline-block bag">
+            <a href="cart" class="icons-btn d-inline-block bag">
               <span class="icon-shopping-bag"></span>
-              <span class="number"></span> <!-- Colocar a quantidade de pedidos do BD -->
+              <span class="number quatntidade de coisas no carrinho">3</span> <!-- Colocar a quantidade de pedidos do BD -->
             </a>
           </div>
         </div>
